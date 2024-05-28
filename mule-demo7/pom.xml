@@ -28,7 +28,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.9.0</version>
 				<extensions>true</extensions>
 				<configuration>
                     <cloudHubDeployment>
@@ -39,7 +39,7 @@
                         <muleVersion>4.6.1</muleVersion>
                         <workers>1</workers>
                         <workerType>Micro</workerType>
-                        <applicationName>demojenkins123321</applicationName>
+                        <applicationName></applicationName>
                         <objectStoreV2>true</objectStoreV2>
                     </cloudHubDeployment>
              </configuration>
