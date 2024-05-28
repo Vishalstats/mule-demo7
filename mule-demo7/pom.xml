@@ -18,6 +18,7 @@
 	</properties>
 
 	<build>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -29,7 +30,21 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+                    <cloudHubDeployment>
+                        <uri>https://anypoint.mulesoft.com</uri>
+                        <username>VB0707</username>
+                        <password>@@Vishuja@1414</password>
+                        <environment>Sandbox</environment>
+                        <muleVersion>4.6.1</muleVersion>
+                        <workers>1</workers>
+                        <workerType>Micro</workerType>
+                        <applicationName>demojenkins123321</applicationName>
+                        <objectStoreV2>true</objectStoreV2>
+                    </cloudHubDeployment>
+             </configuration>
 			</plugin>
+				
 		</plugins>
 	</build>
 
